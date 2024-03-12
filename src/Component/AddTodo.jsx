@@ -35,7 +35,7 @@ function AddTodo() {
           ref={todoDateEle}
            />
         </div>
-        <div class="col-1">
+        <div class="col-2">
           <button
           type="submit"
             
