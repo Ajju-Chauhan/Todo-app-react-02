@@ -1,0 +1,230 @@
+
+
+
+.Todo-List{
+    width: 100%;
+}
+.Todo-row{
+    margin: 10px;
+    
+}
+.Todo-button{
+    min-width: 80px;
+
+}
+.Todo-Cantainer {
+    text-align: left;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todo-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todo-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .todo-item-name {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .todo-item-date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+
+  .container {
+    margin-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+  }
+  
+  .col-6 {
+    flex: 2;
+  }
+  
+  .col-4 {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .col-2 {
+    flex: 1;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Todo-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Todo-button:hover {
+    background-color: #218838;
+  }
+  
+  .Welcome {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .Todo-Container {
+    margin-top: 20px;
+  }
+  
+  .Todo-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .Todo-item {
+    flex: 1 0 25%; /* Adjust the width as needed */
+    padding: 10px;
+    margin: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .Todo-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .Todo-item-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .Todo-item-date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Add this CSS to your stylesheet */
+
+.container {
+  margin-top: 20px;
+}
+
+.Todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.Todo-button {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+/* Optional: Add hover effect to the delete button */
+.Todo-button:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}

@@ -1,0 +1,14 @@
+.Todo-Cantainer {
+    text-align: left;
+}
+.Todo-row{
+    margin: 10px;
+    
+}
+.Todo-button{
+    min-width: 80px;
+
+}
+.Todo-List{
+    width: 100%;
+}

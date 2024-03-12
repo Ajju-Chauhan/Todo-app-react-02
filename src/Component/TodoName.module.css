@@ -1,0 +1,21 @@
+.tagh1 {
+    font-size: 2.5rem; /* Equivalent to 40px */
+    font-weight: 700; /* Equivalent to bold */
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Spacing between letters */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for depth */
+    background-color: #f8f9fa; /* Background color */
+    padding: 10px 20px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .tagh1:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced box shadow on hover */
+  }
+  
